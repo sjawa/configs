@@ -8,6 +8,10 @@
 	st = status
 	ci = commit
 	br = branch
+ lg = log -p
+ dh = diff HEAD
+ pr = pull --rebase
+ uncommit = reset --soft HEAD^
 [core]
 	precomposeunicode = true
 	excludesfile = ~/.gitignore_global
