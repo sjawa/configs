@@ -1,0 +1,20 @@
+[user]
+	name = Sahil Jawa
+	email = jawa@newsaktuell.de
+[push]
+	default = current
+[alias]
+	co = checkout
+	st = status
+	ci = commit
+	br = branch
+[core]
+	precomposeunicode = true
+	excludesfile = ~/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+
