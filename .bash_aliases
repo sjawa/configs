@@ -1,5 +1,5 @@
 alias gst='git st'
-alias ll='ls -l'
-alias la='ls -al'
+alias ll='ls -la'
+alias la='ls -l'
 alias gconf='git config --list'
 alias ..='cd ..'
