@@ -1,3 +1,7 @@
 *~
 .idea
 .DS_Store
+git-https-url.sh
+git-https-url-fish.sh
+git-ssh-url.sh
+git-ssh-url-fish.sh
