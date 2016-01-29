@@ -1,0 +1,5 @@
+$ -  Move cursor to the end of current line
+0 - Move curspr to start of current line
+dw - delete word after cursor
+db - backward delete word before cursor
+x - delete character
